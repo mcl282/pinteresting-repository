@@ -1,7 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
 $body-bg:  #ecf0f1;
-$navbar-inverse-bg:  #16a085;
-$navbar-inverse-link-color:  #d35400;
-$brand-primary:  #c0392b;
-$jumbotron-bg:  #27ae60;
+$navbar-default-bg:  #ecf0f1;
+$navbar-default-link-color:  #FF7260;
+$brand-primary:  #9BD7D5;
+$btn-default-bg:  #FF7260;
+$jumbotron-bg:  #129793;
+$font-family-sans-serif:  "quicksand";
+
+
 @import "bootstrap-sprockets";
 @import 'bootstrap';
+
+.center {
+	text-align:  center;
+}
+
+.navbar-brand {
+	font-weight:  bold;
+}
